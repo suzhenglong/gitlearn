@@ -1,0 +1,1 @@
+select a.ORDERNBR as '订单号' ,a.BUSNAME as '客户序号',a.PAYDATE as '创建时间' ,b. PAYERACCTNAME as '支付卡所属机构号' from ORDERINFO a,ORDERINFO_1 b where a.ORDERNBR=b.ORDERNBR
